@@ -1,0 +1,212 @@
+@keyframes slide-in-left {
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.logo-web-icon21 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.logo-web4 {
+  position: relative;
+  width: 38px;
+  height: 38.42px;
+  flex-shrink: 0;
+}
+.nav-brand4 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.home-icon10 {
+  position: relative;
+  width: 29.27px;
+  height: 29.27px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.leading-icon80 {
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-17xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard38 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 21.96px;
+  display: inline-block;
+}
+.nav-link72 {
+  display: none;
+  flex-direction: row;
+  padding: var(--padding-17xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+.leading-icon-nav-link80,
+.nav-item80,
+.active-side {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.leading-icon-nav-link80 {
+  justify-content: center;
+  gap: var(--gap-0);
+}
+.nav-item80,
+.active-side {
+  border-radius: var(--br-2xs);
+  padding: 0 var(--padding-17xs);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.active-side {
+  background-color: #91d0ff;
+  cursor: pointer;
+}
+.dashboard40 {
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 21.96px;
+  font-weight: 500;
+  display: inline-block;
+}
+.nav-item82 {
+  color: var(--color-gray-1300);
+}
+.nav-item82,
+.nav-item83 {
+  border-radius: var(--br-2xs);
+  display: flex;
+  flex-direction: row;
+  padding: 0 var(--padding-17xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.brand-nav-list4,
+.nav-list10 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.brand-nav-list4 {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-lg);
+}
+.div32 {
+  position: absolute;
+  top: -1.83px;
+  left: 8.23px;
+  line-height: 26.53px;
+  display: inline-block;
+}
+.number-notification-badge4 {
+  position: relative;
+  border-radius: var(--br-2xs);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  width: 21.96px;
+  height: 21.96px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.badge4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.arrow-right-24 {
+  position: relative;
+  width: 21.96px;
+  height: 21.96px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.nav-item87,
+.trailing-icon-badge4 {
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-0);
+}
+.trailing-icon-badge4 {
+  display: none;
+  align-items: flex-start;
+  font-size: var(--font-size-9xs);
+}
+.nav-item87 {
+  border-radius: var(--br-2xs);
+  background-color: var(--color-gray-1000);
+  display: flex;
+  padding: 0 var(--padding-17xs);
+  box-sizing: border-box;
+  align-items: center;
+}
+.logout-toogle10,
+.side-nav4 {
+  display: flex;
+  flex-direction: column;
+}
+.logout-toogle10 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-1300);
+}
+.side-nav4 {
+  border-radius: var(--br-md);
+  background-color: var(--studio-darkmode-allwhite-ffffff);
+  box-shadow: 0 3.6591761112213135px 54.89px rgba(0, 0, 0, 0.15);
+  height: 699px;
+  padding: var(--padding-2xs) var(--padding-5xs);
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar-admin-daftar-user {
+  position: relative;
+  background-color: var(--color-gray-500);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  opacity: 0;
+  max-width: 90%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-7xs);
+  color: var(--color-gray-1100);
+  font-family: var(--font-poppins);
+}
+.sidebar-admin-daftar-user.animate {
+  animation: 0.25s ease 0s 1 normal forwards slide-in-left;
+}
+@media screen and (max-width: 768px) {
+  .logo-web-icon21 {
+    display: flex;
+  }
+}
